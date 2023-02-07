@@ -1,14 +1,10 @@
-#copy from https://github.com/Moe-hacker/FuckMIUI
 127.0.0.1 localhost
 ::1 ip6-localhost
-#软件安装验证相关，建议屏蔽，你懂的
 127.0.0.1 api.installer.xiaomi.com
 127.0.0.1 beacon-api.aliyuncs.com
 127.0.0.1 sdkconfig.ad.xiaomi.com
 127.0.0.1 api-middle.transfer.sec.miui.com
 127.0.0.1 api.sec.miui.com
-#手机管家相关，病毒数据库和联网查杀
-#不过安卓系统病毒并不算多，由于和隐私相关故做屏蔽
 127.0.0.1 miui-fxcse.avlyun.com
 127.0.0.1 adv.sec.miui.com
 127.0.0.1 tmfsdk.m.qq.com
@@ -19,109 +15,134 @@
 127.0.0.1 flash.sec.miui.com
 127.0.0.1 data.sec.miui.com
 127.0.0.1 auth.be.sec.miui.com
-#米推？我也不确定
 127.0.0.1 mpush-api.aliyun.com
-#貌似是小米账号安全相关
 127.0.0.1 api.miui.security.xiaomi.com
-#很明显，查找手机
 127.0.0.1 findapi.micloud.xiaomi.net
 127.0.0.1 lbs.map.qq.com
 127.0.0.1 find.api.micloud.xiaomi.net
-#鬼知道是啥
 127.0.0.1 cdn.exp.xiaomi.com
-#很明显，小米账号
 127.0.0.1 act.account.xiaomi.com
 127.0.0.1 account.xiaomi.com
-#软件商店
 127.0.0.1 app.market.xiaomi.com
 127.0.0.1 adash-emas.cn-hangzhou.aliyuncs.com
 127.0.0.1 sf0.market.xiaomi.com
 127.0.0.1 centertime.ksyun.com
 127.0.0.1 api.kingdata.ksyun.com
 127.0.0.1 file.market.xiaomi.com
-#鬼知道是啥
 127.0.0.1 slb-p2p.vcloud.ks-live.com
-#小米账号
 127.0.0.1 c.id.mi.com
 127.0.0.1 api.account.xiaomi.com
 127.0.0.1 open.account.xiaomi.com
 127.0.0.1 v.id.mi.com
-127.0.0.1 c.id.mi.com
-#不知道干嘛的
 127.0.0.1 httpdns-sc.aliyuncs.com
 127.0.0.1 h-adashx.ut.taobao.com
-#这应该是安装验证，建议屏蔽
 127.0.0.1 api-installer.pt.xiaomi.com
 127.0.0.1 preview-api.installer.xiaomi.com
 127.0.0.1 test-api-installer.pt.xiaomi.com
-#不知道干嘛的
 127.0.0.1 api.hybrid.intl.xiaomi.com
 127.0.0.1 api.hybrid.xiaomi.com
 127.0.0.1 sdkconfig.ad.intl.xiaomi.com
-127.0.0.1 sdkconfig.ad.xiaomi.com
-#还是不知道干嘛的
 127.0.0.1 data.game.xiaomi.com
-#小米妙播？这东西也不需要联网啊
 127.0.0.1 milink.ac.mi.com
 127.0.0.1 link.g.mi.com
 127.0.0.1 connect-milink.g.mi.com
-#安全相关
 127.0.0.1 tz.sec.xiaomi.com
-#应该是软件商店
-127.0.0.1 a0.app.xiaomi.com
-#应该是青少年模式
 127.0.0.1 child.sec.intl.miui.com
 127.0.0.1 child.sec.miui.com
-#不知道是啥，游戏安全？
 127.0.0.1 gamebox.sec.miui.com
-#安全相关
-127.0.0.1 api.miui.security.xiaomi.com
-#怕是广告
 127.0.0.1 api.ad.xiaomi.com
-#安全相关
-127.0.0.1 auth.be.sec.miui.com
 127.0.0.1 authbe.sec.intl.miui.com
-127.0.0.1 flash.sec.miui.com
 127.0.0.1 data.sec.intl.miui.com
-127.0.0.1 data.sec.miui.com
-#浏览器的敏感站点屏蔽数据？不清楚
 127.0.0.1 security.browser.miui.com
-#安全相关
 127.0.0.1 adv.sec.intl.miui.com
-127.0.0.1 adv.sec.miui.com
-#鬼知道啥东西
 127.0.0.1 api.jr.mi.com
-#安全相关
 127.0.0.1 embed.sec.miui.com
-#鬼知道啥东西？隐私保护需要联网那还叫隐私保护？简直是隐私破坏吧
 127.0.0.1 privacy.api.intl.miui.com
-#鬼知道是啥
-127.0.0.1 api.hybrid.intl.xiaomi.com
 127.0.0.1 apm-rum.inf.miui.com
-#软件商店
-127.0.0.1 app.market.xiaomi.com
 127.0.0.1 q-app.market.xiaomi.com
-#下面这段修改自酷安@诺蓝的MIUIYYDS，虽然和模块主题貌似不搭但是由于应该确实有效果就加进去了
 127.0.0.1 preview-jupiter.sys.miui.com
 127.0.0.1 jupiter.intl.sys.miui.com
 127.0.0.1 jupiter.sys.miui.com
 127.0.0.1 jupiter.rus.sys.miui.com
-127.0.0.1 sdkconfig.ad.xiaomi.com
-127.0.0.1 tracking.miui.com
 127.0.0.1 tracking.intl.miui.com
 127.0.0.1 tracking.rus.miui.com
 127.0.0.1 tracking.india.miui.com
-127.0.0.1 sdkconfig.ad.intl.xiaomi.com
 127.0.0.1 sdkconfig.ad.india.xiaomi.com
 127.0.0.1 sdkconfig.ad.rus.xiaomi.com
 127.0.0.1 staging.sdkconfig.ad.xiaomi.srv
 127.0.0.1 staging.tracking.miui.com
 127.0.0.1 api.developer.xiaomi.com
-#MIUI广告屏蔽
 127.0.0.1 rom.pt.miui.srv
 127.0.0.1 advsec.miui.com
 127.0.0.1 analytics.miui.com
 127.0.0.1 analytics.db.miui.com
 127.0.0.1 api.joyose.miui.com
-127.0.0.1 adv.sec.miui.com
-127.0.0.1 gamebox.sec.miui.com
+127.0.0.1 log.avlyun.sec.intl.miui.com
+127.0.0.1 ixav-cse.avlyun.com
+127.0.0.1 logupdate.avlyun.sec.miui.com
+127.0.0.1 sdkconf.avlyun.com
+127.0.0.1 xlmc.sec.miui.com
+127.0.0.1 etl-xlmc-ssl.sandai.net
+127.0.0.1 cn.app.chat.xiaomi.net
+127.0.0.1 a.hl.mi.com
+127.0.0.1 idm.api.io.mi.com
+127.0.0.1 ssl-cdn.static.browser.mi-img.com
+127.0.0.1 data.mistat.xiaomi.com
+127.0.0.1 diagnosis.ad.xiaomi.com
+127.0.0.1 log.ad.xiaomi.com
+127.0.0.1 m.track.ad.xiaomi.com
+127.0.0.1 tracker.ai.xiaomi.com
+127.0.0.1 mazu.sec.miui.com
+127.0.0.1 o2o.api.xiaomi.com
+127.0.0.1 api.browser.miui.com
+127.0.0.1 hot.browser.miui.com
+127.0.0.1 r.browser.miui.com
+127.0.0.1 hd.browser.miui.com
+127.0.0.1 c3-cache.browser.miui.com
+127.0.0.1 api-ipv4.browser.miui.com
+127.0.0.1 qsb.browser.miui.srv
+127.0.0.1 ccc.sys.miui.com
+127.0.0.1 metok.sys.miui.com
+127.0.0.1 tmfsdk4.m.qq.com
+127.0.0.1 tbm.snssdk.com
+127.0.0.1 othstr.beacon.qq.com
+127.0.0.1 tools.3g.qq.com
+127.0.0.1 tmfsdktcp.m.qq.com
+127.0.0.1 h.trace.qq.com
+127.0.0.1 hub5pn.wap.sandai.net
+127.0.0.1 tpstelemetry.tencent.com
+127.0.0.1 pssn.alicdn.com
+127.0.0.1 tmfsdktcpv4.m.qq.com
+127.0.0.1 tmeadcomm.y.qq.com
+127.0.0.1 tangram.e.qq.com
+127.0.0.1 us.l.qq.com
+127.0.0.1 tdid.m.qq.com
+127.0.0.1 api.yky.qq.com
+127.0.0.1 sdk.e.qq.com
+127.0.0.1 android.bugly.qq.com
+127.0.0.1 toblog.ctobsnssdk.com
+127.0.0.1 tobapplog.ctobsnssdk.com
+127.0.0.1 cfg.imtt.qq.com
+127.0.0.1 statres.quickapp.cn
+127.0.0.1 qr.quickapp.cn
+127.0.0.1 hybrid.xiaomi.com
+127.0.0.1 hybrid.miui.com
+127.0.0.1 s1.irs03.com
+127.0.0.1 up.cm.ksmobile.com
+127.0.0.1 dl.cm.ksmobile.com
+127.0.0.1 dw-online.ksosoft.com
+127.0.0.1 zzhc.vnet.cn
+127.0.0.1 ug.snssdk.com
+127.0.0.1 t7z.cupid.iqiyi.com
+127.0.0.1 worldwide.sogou.com
+127.0.0.1 www.pangolin-dsp-toutiao.com
+127.0.0.1 master.wap.dphub.sandai.net
+127.0.0.1 hub5u.wap.sandai.net
+127.0.0.1 idx.m.hub.sandai.net
+127.0.0.1 tw13b093.sandai.net
+127.0.0.1 adinfo.ra1.xlmc.sec.miui.com
+127.0.0.1 test.ad.xiaomi.com
+127.0.0.1 uploadlog.xlmc.sandai.net
+127.0.0.1 t03-api.xlmc.xunlei.com
+127.0.0.1 pre.api.tw06.xlmc.sandai.net
+127.0.0.1 guid-xldw-ssl.n0808.com

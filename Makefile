@@ -1,6 +1,5 @@
-#copy from https://github.com/yuk7/miui12-fontsxml
-OUT_ZIP=Hosts_MIUI.zip
-SH=sh
+OUT_ZIP=miui-hosts.zip
+SH=bash
 
 all: $(OUT_ZIP)
 
